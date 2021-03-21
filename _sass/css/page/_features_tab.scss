@@ -1,0 +1,130 @@
+﻿.tab{
+  padding-top: 10%;
+  margin-bottom: 10%;
+
+  @media (min-width: $media_sm) {
+    margin-bottom: 7%;
+  }
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  a{
+    display: block;
+    box-sizing: content-box;
+    position: relative;
+
+    width: 44%;
+    background-color: #fff;
+    transform: skewX(-30deg);
+
+    @media (min-width: $media_sm) {
+      width: 23.4%;
+    }
+
+    &:hover, &:active, &:focus{
+      text-decoration: none;
+    }
+
+    &:hover{
+      span{
+        transition: .1s ease-out;
+        transform: skewX(30deg) scale(1.2);
+      }
+    }
+
+    &:nth-child(1){
+      border: 4px solid #000;
+      border-right: none;
+
+      div{
+        border-left: 4px solid #15bd6f;
+      }
+    }
+
+    &:nth-child(2){
+      border: 4px solid #000;
+      border-left: none;
+
+      @media (min-width: $media_sm) {
+        border-left: none;
+        border-right: none;
+      }
+    }
+
+    &:nth-child(3){
+      border: 4px solid #000;
+      border-right: none;
+      margin-top: -4px;
+
+      @media (min-width: $media_sm) {
+        border-left: none;
+        border-right: none;
+        margin-top: 0;
+      }
+    }
+
+    &:nth-child(4){
+      border: 4px solid #000;
+      border-left: none;
+      margin-top: -4px;
+
+      @media (min-width: $media_sm) {
+        margin-top: 0;
+      }
+
+      div{
+        border-right: 4px solid #15bd6f;
+      }
+    }
+
+    &.active{
+      z-index: 10;
+
+      &::before{
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 98%;
+        height: 120%;
+        background-image: linear-gradient(top, #fffd00, #ffcc00);
+        border: 4px solid #000;
+        transform: translate(-50%, -50%);
+      }
+
+      span{
+        font-size: 16px;
+        transform: skewX(30deg) scale(1);
+        transition: .1s ease-out;
+
+        @media (min-width: $media_sm) {
+          font-size: 24px;
+        }
+      }
+    }
+
+    div{ 
+      border: 3px solid #15bd6f;
+
+      span{
+        display: block;
+        color: #000;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 2px;
+        text-align: center;
+        transform: skewX(30deg);
+        transition: .3s ease-out;
+
+        @media (min-width: $media_sm) {
+          font-size: 20px;
+          line-height: 60px;
+        }
+      }
+    }
+  }
+}
