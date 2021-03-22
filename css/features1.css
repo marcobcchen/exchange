@@ -4193,7 +4193,7 @@ header .header-container .hamburger.open li:nth-child(2) { transform: rotate(-45
 @media (min-width: 768px) { /* line 635, ../_sass/css/common/_global.scss */
   .kv-container .kv .ball { left: 40%; top: 67%; width: 9%; } }
 /* line 653, ../_sass/css/common/_global.scss */
-.kv-container .anchor { position: absolute; left: 50%; bottom: 30px; display: block; width: 24px; height: 24px; margin: 0 auto; z-index: 500; }
+.kv-container .anchor { position: absolute; left: 50%; bottom: 30px; display: block; width: 24px; height: 24px; margin: 0 auto; z-index: 5; }
 /* line 663, ../_sass/css/common/_global.scss */
 .kv-container .anchor span { display: block; color: #fff; font-weight: 700; position: absolute; left: 50%; top: -20px; transform: translateX(-50%); }
 /* line 673, ../_sass/css/common/_global.scss */
