@@ -30,12 +30,12 @@ $(function(){
   function animation(){
     TweenMax.to($('.content-1 .des .icon'), .6, {rotation: -20, yoyo: true, repeat: -1, ease: Power2.easeOut});
 
-    var _w = $('.text-img-1 .text').width();
+    var _w = $('.text-img-1 .text').innerWidth();
 
-    TweenMax.fromTo($('.text-img-1 .text'), 3, {x: 0}, {x: -100, ease: Power0.easeNone, repeat: -1, yoyo: true, delay: 0.1});
-    TweenMax.fromTo($('.text-img-3 .text'), 3, {x: 0}, {x: -100, ease: Power0.easeNone, repeat: -1, yoyo: true, delay: 1});
-    TweenMax.fromTo($('.text-img-2 .text'), 3, {x: -100}, {x: 0, ease: Power0.easeNone, repeat: -1, yoyo: true, delay: 0.2});
-    TweenMax.fromTo($('.text-img-4 .text'), 3, {x: -100}, {x: 0, ease: Power0.easeNone, repeat: -1, yoyo: true, delay: 2});
+    TweenMax.fromTo($('.text-img-1 .text'), 1, {x: 0}, {x: 170, ease: Power0.easeNone, repeat: -1, yoyo: true, delay: 0.1});
+    TweenMax.fromTo($('.text-img-3 .text'), 1, {x: 0}, {x: 170, ease: Power0.easeNone, repeat: -1, yoyo: true, delay: 1});
+    TweenMax.fromTo($('.text-img-2 .text'), 1, {x: 170}, {x: 0, ease: Power0.easeNone, repeat: -1, yoyo: true, delay: 0.2});
+    TweenMax.fromTo($('.text-img-4 .text'), 1, {x: 170}, {x: 0, ease: Power0.easeNone, repeat: -1, yoyo: true, delay: 2});
   }
 
   function content2(){
