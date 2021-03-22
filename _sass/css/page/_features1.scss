@@ -683,19 +683,29 @@
 				left: 0;
 				top: 50%;
 				width: 100%;
-				height: 25%;
-				overflow: hidden;	
+				// height: 25%;
+				// overflow: hidden;	
 
 				.text{
+					position: absolute;
+					top: 0;
 					width: 2163px;
-					height: 100%;
-					background: url('../images/features1/bg_text.png') no-repeat left center;
-					background-size: auto 80px;
+					// height: 100%;
+					// background: url('../images/features1/bg_text.png') no-repeat left center;
+					// background-size: auto 80px;
 					opacity: 0.6;
 
 					@media (min-width: $media_sm) {
-						background-size: auto 110px;
+						// background-size: auto 110px;
 					}
+				}
+
+				.text-1{
+					left: 0;
+				}
+
+				.text-2{
+					left: 2163px;
 				}
 			}
 
@@ -704,11 +714,11 @@
 			}
 
 			.text-img-2{
-				top: 20%;
+				top: 22%;
 			}
 
 			.text-img-3{
-				top: 55%;
+				top: 53%;
 			}
 
 			.text-img-4{
