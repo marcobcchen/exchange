@@ -20,7 +20,7 @@ $(function(){
   function onScroll(){
     var st = $(window).scrollTop();
 
-    if(st > $('.bg-1').offset().top){
+    if(st > 300){
       animation();
     }
   }

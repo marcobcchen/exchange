@@ -123,21 +123,17 @@ $(function(){
 
         // $('header nav a').removeClass('active');
 
-        // if(urlAry[0].charAt(urlAry[0].length - 1) == '/'){
-        //     $('header nav a:nth-child(1)').addClass('active');
-        // }else if(pathname.includes('index')){
-        //     $('header nav a:nth-child(1)').addClass('active');
-        // }else if(pathname.includes('about')){
-        //     $('header nav a:nth-child(2)').addClass('active');
-        // }else if(pathname.includes('expertise')){
-        //     $('header nav a:nth-child(3)').addClass('active');
-        // }else if(pathname.includes('products')){
-        //     $('header nav a:nth-child(4)').addClass('active');
-        // }else if(pathname.includes('access')){
-        //     $('header nav a:nth-child(5)').addClass('active');
-        // }else{
-        //     $('header nav a').removeClass('active');
-        // }
+        if(urlAry[0].charAt(urlAry[0].length - 1) == '/'){
+            $('header .icon-1').addClass('active');
+        }else if(pathname.includes('index')){
+            $('header .icon-1').addClass('active');
+        }else if(pathname.includes('features')){
+            $('header .icon-2').addClass('active');
+        }else if(pathname.includes('activity')){
+            $('header .icon-3').addClass('active');
+        }else{
+            $('header nav a').removeClass('active');
+        }
 
         // 選單開關
         $(".hamburger").on("click",function(){            

@@ -18,7 +18,7 @@ $(function(){
   function onScroll(){
     var st = $(window).scrollTop();
 
-    if(st > $('.content-3').offset().top){
+    if(st > $('.content-2').offset().top){
       animation();
     }
   }

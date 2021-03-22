@@ -41,16 +41,16 @@
 			<div class="bg-1"></div>
 			<!-- tab -->
 			<div class="tab">
-				<a class="active" href="features1.html">
+				<a class="active" href="features1.html" onclick="trackEvent('click_to_masterball', 'page_function');">
 					<div><span>換匯大師球</span></div>
 				</a>
-				<a href="features2.html">
+				<a href="features2.html" onclick="trackEvent('click_to_five', 'page_function');">
 					<div><span>解匯五連擊</span></div>
 				</a>
-				<a href="features3.html">
+				<a href="features3.html" onclick="trackEvent('click_to_transfer', 'page_function');">
 					<div><span>轉帳任意門</span></div>
 				</a>
-				<a href="features4.html">
+				<a href="features4.html" onclick="trackEvent('click_to_supply', 'page_function');">
 					<div><span>提款補給站</span></div>
 				</a>
 			</div>
@@ -69,7 +69,7 @@
 						本頁資料僅供參考，實際匯率依交易匯率為準。
 					</p>
 				</div>
-				<a class="normal-link" href="#">
+				<a class="normal-link" href="#" onclick="trackEvent('click_to_masterballLightbox', 'page_function');">
 					<span>暸解詳情 GO</span>
 					<div class="lightning"></div>
 				</a>
@@ -84,8 +84,8 @@
 						<div class="item"><img src="images/features1/step_2.png"></div>
 						<div class="item"><img src="images/features1/step_3.png"></div>
 					</div>
-					<a class="prev" href="#"><img src="images/features1/icon_prev.png"></a>
-					<a class="next" href="#"><img src="images/features1/icon_next.png"></a>
+					<a class="prev" href="#" onclick="trackEvent('click_to_left', 'page_function');"><img src="images/features1/icon_prev.png"></a>
+					<a class="next" href="#" onclick="trackEvent('click_to_right', 'page_function');"><img src="images/features1/icon_next.png"></a>
 				</div>
 				<div class="step-text">
 					<div class="title"><img src="images/features1/title_2.png"></div>
@@ -103,7 +103,7 @@
 								<p class="point">到價通知</p>
 								<div>
 									<p class="des">設定買賣到價通知，好匯率立刻手到擒來！</p>
-									<a href="#">到LINE設定 ></a><a href="#">到APP設定 ></a>
+									<a href="#" onclick="trackEvent('link_to_line', 'page_function');">到LINE設定 ></a><a href="#" onclick="trackEvent('link_to_app', 'page_function');">到APP設定 ></a>
 								</div>
 							</div>
 						</div>
@@ -328,12 +328,12 @@
 
 	<!-- cta -->
 	<div class="cta-container">
-		<a class="cta-old-member" href="#">
+		<a class="cta-old-member" href="#" onclick="trackEvent('link_to_old', 'menubar');">
 			<img class="visible-xs" src="images/global/cta_old_member_xs.png">
 			<img class="hidden-xs" src="images/global/cta_old_member_md.png">
 			<div class="hidden-xs icon">	<img src="images/global/cta_icon_old_md.png"></div>
 		</a>
-		<a class="cta-new-member" href="#">
+		<a class="cta-new-member" href="#" onclick="trackEvent('link_to_new', 'menubar');">
 			<img class="visible-xs" src="images/global/cta_new_member_xs.png">
 			<img class="hidden-xs" src="images/global/cta_new_member_md.png">
 			<div class="hidden-xs icon">	<img src="images/global/cta_icon_new_md.png"></div>
@@ -568,11 +568,19 @@
 	<script type="text/javascript" src="js/vendor/detectizr.js"></script>
 	<script type="text/javascript" src="js/vendor/jquery.html5Loader.min.js"></script>
 	<script type="text/javascript" src="js/vendor/TweenMax.min.js"></script>
-	<!-- <script type="text/javascript" src="js/vendor/scrolltoplugin.min.js"></script> -->
-	<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.1/lottie.min.js"></script> -->
 
 	<script type="text/javascript" src="js/tracking.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/features1.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Ads: 403973592 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-403973592"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'AW-403973592');
+	</script>
 </body>
 </html>

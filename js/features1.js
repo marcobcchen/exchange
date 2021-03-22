@@ -32,10 +32,10 @@ $(function(){
 
     var _w = $('.text-img-1 .text').width();
 
-    TweenMax.fromTo($('.text-img-1 .text'), 8, {x: ww}, {x: -_w, ease: Power0.easeNone, repeat: -1, delay: 0.1});
-    TweenMax.fromTo($('.text-img-3 .text'), 8, {x: ww}, {x: -_w, ease: Power0.easeNone, repeat: -1, delay: 1});
-    TweenMax.fromTo($('.text-img-2 .text'), 8, {x: -_w}, {x: ww, ease: Power0.easeNone, repeat: -1, delay: 0.2});
-    TweenMax.fromTo($('.text-img-4 .text'), 8, {x: -_w}, {x: ww, ease: Power0.easeNone, repeat: -1, delay: 2});
+    TweenMax.fromTo($('.text-img-1 .text'), 3, {x: 0}, {x: -100, ease: Power0.easeNone, repeat: -1, yoyo: true, delay: 0.1});
+    TweenMax.fromTo($('.text-img-3 .text'), 3, {x: 0}, {x: -100, ease: Power0.easeNone, repeat: -1, yoyo: true, delay: 1});
+    TweenMax.fromTo($('.text-img-2 .text'), 3, {x: -100}, {x: 0, ease: Power0.easeNone, repeat: -1, yoyo: true, delay: 0.2});
+    TweenMax.fromTo($('.text-img-4 .text'), 3, {x: -100}, {x: 0, ease: Power0.easeNone, repeat: -1, yoyo: true, delay: 2});
   }
 
   function content2(){

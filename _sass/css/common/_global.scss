@@ -210,6 +210,48 @@ header{
 					}
 				}
 
+				&.icon-1:hover, &.icon-2:hover, &.icon-3:hover{
+					@media (min-width: $media_md) {
+						&::before{
+							display: block;
+							width: 30px;
+							height: 30px;
+							margin-right: 8px;
+							background: url('../images/global/icon_ball.png') no-repeat center center;
+							background-size: cover;
+							opacity: 1;
+						}
+					}
+				}
+
+				&.icon-1, &.icon-2, &.icon-3{
+					@media (min-width: $media_md) {
+						&::before{
+							display: block;
+							width: 30px;
+							height: 30px;
+							margin-right: 8px;
+							background: url('../images/global/icon_ball.png') no-repeat center center;
+							background-size: cover;
+							opacity: 0;
+						}
+					}
+				}
+
+				&.icon-1.active, &.icon-2.active, &.icon-3.active{
+					@media (min-width: $media_md) {
+						&::before{
+							display: block;
+							width: 30px;
+							height: 30px;
+							margin-right: 8px;
+							background: url('../images/global/icon_ball.png') no-repeat center center;
+							background-size: cover;
+							opacity: 1;
+						}
+					}
+				}
+
 				&.icon-1{
 					&::before{
 						background: url('../images/global/icon_nav_1_xs.png') no-repeat center center;
@@ -223,16 +265,16 @@ header{
 						background-size: contain;
 					}
 
-					@media (min-width: $media_md) {
-						&::before{
-							display: block;
-							width: 30px;
-							height: 30px;
-							margin-right: 8px;
-							background: url('../images/global/icon_ball.png') no-repeat center center;
-							background-size: cover;
-						}
-					}
+					// @media (min-width: $media_md) {
+					// 	&::before{
+					// 		display: block;
+					// 		width: 30px;
+					// 		height: 30px;
+					// 		margin-right: 8px;
+					// 		background: url('../images/global/icon_ball.png') no-repeat center center;
+					// 		background-size: cover;
+					// 	}
+					// }
 				}
 
 				&.icon-3{
@@ -240,6 +282,17 @@ header{
 						background: url('../images/global/icon_nav_3_xs.png') no-repeat center center;
 						background-size: contain;
 					}
+
+					// @media (min-width: $media_md) {
+					// 	&::before{
+					// 		display: block;
+					// 		width: 30px;
+					// 		height: 30px;
+					// 		margin-right: 8px;
+					// 		background: url('../images/global/icon_ball.png') no-repeat center center;
+					// 		background-size: cover;
+					// 	}
+					// }
 				}
 
 				&.icon-4{
@@ -465,18 +518,18 @@ header{
 	width: 100%;
 	max-width: 1920px;
 	margin: 0 auto;
-	padding-top: 140%;
+	// padding-top: 140%;
 	// pointer-events: none;
 
 	@media (min-width: $media_sm) {
-		padding-top: 55%;
+		// padding-top: 55%;
 	}
 
 	.kv{
 		position: relative;
 		width: 100%;
 		padding-top: 140%;
-		margin-top: -140%;
+		// margin-top: -140%;
 
 		background-repeat: no-repeat;
 		background-position: center bottom;
@@ -485,7 +538,7 @@ header{
 
 		@media (min-width: $media_sm) {
 			padding-top: 55%;
-			margin-top: -55%;
+			// margin-top: -55%;
 			background-image: url('../images/kv/bg_md.jpg');
 		}
 
