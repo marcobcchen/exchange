@@ -22,7 +22,7 @@ $(function(){
       return false;
     });
 
-    timer =setInterval(slide, 10);
+    // timer =setInterval(slide, 10);
   }
   init();
 
@@ -101,9 +101,6 @@ $(function(){
     } else{
       TweenMax.set($('.text-img-4 .text-2'), {left: text_4_2 + space});
     }
-
-    
-    
   }
 
   function content2(){

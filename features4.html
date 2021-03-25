@@ -14,16 +14,16 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1, minimum-scale=1.0, maximum-scale=1.0"> 
 
-	<meta property="og:site_name" content=""/>
-	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content="Richart 好利HIGH 外匯解鎖不卡關"/>
+	<meta property="og:url" content="https://richart.tw/TSDIB_RichartWeb/static/event/marketing/202104/fx2021.html"/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:title" content=""/>
-	<meta property="og:description" content=""/>
-	<meta property="og:image" content=""/>
+	<meta property="og:title" content="Richart 好利HIGH 外匯解鎖不卡關"/>
+	<meta property="og:description" content="Richart APP在手 匯率投資全CARRY外幣優匯不用挑Richart包你一鍵全收服，Richart智慧理財功能，24小時提領不受限，讓你出國旅遊網購、外幣投保不愁！支援10種幣別定存提供單筆、1、3、6個月及1年等多種天期任你選，資金配置更靈活！"/>
+	<meta property="og:image" content="https://richart.tw/TSDIB_RichartWeb/static/event/marketing/202104/images/share.jpg"/>
 
 	<link rel="icon" type="image/png" href="images/favicon.ico" />
 
-	<title>Richart</title>
+	<title>Richart 好利HIGH 外匯解鎖不卡關</title>
 	<link rel="stylesheet" type="text/css" href="css/features4.css"/>
 </head>
 
@@ -100,15 +100,14 @@
 		</div>
 	</section>
 
-
 	<!-- cta -->
 	<div class="cta-container">
-		<a class="cta-old-member" href="#" onclick="trackEvent('link_to_old', 'menubar');">
+		<a class="cta-old-member" href="javascript:setUTM_URL('https://richart.tw/TSDIB_RichartWeb/RC04/RC040302?openpage=ForeignCurrency&second_source=richart&second_medium=eventsite&second_campaign=richart_fx_202104&second_content=button_oldrf');" onclick="trackEvent('link_to_old', 'menubar');">
 			<img class="visible-xs" src="images/global/cta_old_member_xs.png">
 			<img class="hidden-xs" src="images/global/cta_old_member_md.png">
 			<div class="hidden-xs icon">	<img src="images/global/cta_icon_old_md.png"></div>
 		</a>
-		<a class="cta-new-member" href="#" onclick="trackEvent('link_to_new', 'menubar');">
+		<a class="cta-new-member" href="javascript:setUTM_URL('https://richart.tw/TSDIB_RichartWeb/Redirect/DownloadAppLink&second_source=richart&second_medium=eventsite&second_campaign=richart_fx_202104&second_content=button_newrf');" onclick="trackEvent('link_to_new', 'menubar');">
 			<img class="visible-xs" src="images/global/cta_new_member_xs.png">
 			<img class="hidden-xs" src="images/global/cta_new_member_md.png">
 			<div class="hidden-xs icon">	<img src="images/global/cta_icon_new_md.png"></div>
@@ -143,14 +142,35 @@
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/features4.js"></script>
 
-	<!-- Global site tag (gtag.js) - Google Ads: 403973592 -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-403973592"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72250086-67"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
 
-		gtag('config', 'AW-403973592');
+		gtag('config', 'UA-72250086-67');
+	</script>
+
+	<script>
+		$.urlParam = function(name){
+				var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+				if (results == null){
+					return null;
+				}
+				else {
+					return decodeURI(results[1]) || 0;
+				}
+		}
+		// check 2 main utm parameter existed
+		if ($.urlParam('utm_source') && $.urlParam('utm_medium')){
+		// storage utm parameter in seesion Storage
+				sessionStorage.setItem("utm_source", $.urlParam('utm_source'));
+				sessionStorage.setItem("utm_medium", $.urlParam('utm_medium'));
+				sessionStorage.setItem("utm_campaign", $.urlParam('utm_campaign')||'');
+				sessionStorage.setItem("utm_content", $.urlParam('utm_content')||'');
+				sessionStorage.setItem("utm_term", $.urlParam('utm_term')||'');
+		};
 	</script>
 </body>
 </html>

@@ -711,18 +711,22 @@
 
 			.text-img-1{
 				top: -10%;
+				left: -20%;
 			}
 
 			.text-img-2{
 				top: 22%;
+				left: -10%;
 			}
 
 			.text-img-3{
 				top: 53%;
+				left: -20%;
 			}
 
 			.text-img-4{
 				top: 85%;
+				left: -10%;
 			}
 		}
 	}
@@ -861,12 +865,12 @@ footer{
 		position: absolute;
 		left: 50%;
 		top: 50%;
-		max-width: 1440px;
+		max-width: 900px;
 		width: calc(100% - 28px);
-		height: 70vh;
+		height: 80vh;
 		transform: translate(-50%, -50%);
 		background-color: #fef600;
-		padding: 4%;
+		padding: 2%;
 
 		@media (min-width: $media_sm) {
 			width: calc(100% - 40px);
@@ -894,25 +898,26 @@ footer{
 		}
 
 		.lb-title{
-			font-size: 28px;
+			font-size: 18px;
 			font-weight: 700;
 			line-height: 1.4;
-			margin-bottom: 4%;
+			margin-top: 0;
+			margin-bottom: 3%;
 
 			@media (min-width: $media_md) {
-				font-size: 42px;
+				font-size: 32px;
 			}
 
 			i{
-				font-size: 32px;
+				font-size: 22px;
 
 				@media (min-width: $media_md) {
-					font-size: 52px;
+					font-size: 42px;
 				}
 			}
 
 			span{
-				font-size: 22px;
+				font-size: 16px;
 				font-weight: 300;
 				background: url('../images/global/bg_title.png') no-repeat left bottom;
 				background-size: contain;
@@ -920,7 +925,7 @@ footer{
 				padding-right: 40px;
 
 				@media (min-width: $media_md) {
-					font-size: 28px;
+					font-size: 22px;
 					padding-right: 60px;
 				}
 			}
@@ -971,16 +976,16 @@ footer{
 			td{
 				font-size: 16px;
 				text-align: center;
-				padding: 20px 0px;
+				padding: 10px;
 				border: 1px solid #000;
 
 				@media (min-width: $media_md) {
 					font-size: 18px;
-					padding: 10px;
+					padding: 0 10px;
 				}
 
 				@media (min-width: $media_lg) {
-					padding: 20px;
+					padding: 5px 10px;
 				}
 			}
 
@@ -1005,7 +1010,8 @@ footer{
 			}
 
 			.big{
-				font-size: 30px;
+				font-size: 28px;
+				line-height: 1.6;
 			}
 
 			.currency{
@@ -1026,14 +1032,14 @@ footer{
 					font-weight: 500;
 					background-color: #000;
 					border-radius: 50px;
-					padding: 5px 0;
+					padding: 3px 0;
 					width: 120px;
 					margin: 0;
 					margin-left: 10px;
 
 					@media (min-width: $media_sm) {
 						font-size: 16px;
-						width: 140px;
+						width: 130px;
 					}
 
 					.icon{
@@ -1043,16 +1049,15 @@ footer{
 						width: 45px;
 
 						@media (min-width: $media_sm) {
-							width: 55px;
+							width: 50px;
 						}
 					}
-
-					.price{
-						text-align: left;
-					}
 				}
+			}
 
-				
+			.price{
+				text-align: right;
+				margin: 0;
 			}
 		}
 	}
