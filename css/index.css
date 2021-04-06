@@ -4141,143 +4141,150 @@ header .header-container .hamburger.open li:nth-child(2) { transform: rotate(-45
 /* line 510, ../_sass/css/common/_global.scss */
 .kv-container { width: 100%; max-width: 1920px; margin: 0 auto; }
 /* line 515, ../_sass/css/common/_global.scss */
-.kv-container .kv { position: relative; width: 100%; padding-top: 140%; background-repeat: no-repeat; background-position: center bottom; background-size: cover; background-image: url("../images/kv/bg_xs.jpg"); }
+.kv-container .kv { position: relative; width: 100%; padding-top: 140%; z-index: -1; background-repeat: no-repeat; background-position: center bottom; background-size: cover; background-image: url("../images/kv/bg_xs.jpg"); }
 @media (min-width: 768px) { /* line 515, ../_sass/css/common/_global.scss */
   .kv-container .kv { padding-top: 50%; background-image: url("../images/kv/bg_md.jpg"); } }
-/* line 530, ../_sass/css/common/_global.scss */
+/* line 531, ../_sass/css/common/_global.scss */
 .kv-container .kv .all { position: absolute; left: 0; top: 0; width: 100%; height: 100%; transform: scale(0.87); transform-origin: center 60%; }
-/* line 542, ../_sass/css/common/_global.scss */
+/* line 543, ../_sass/css/common/_global.scss */
 .kv-container .kv .title-container { position: absolute; left: 50%; top: 14.7%; width: 95%; transform: translateX(-50%); }
-@media (min-width: 768px) { /* line 542, ../_sass/css/common/_global.scss */
+@media (min-width: 768px) { /* line 543, ../_sass/css/common/_global.scss */
   .kv-container .kv .title-container { top: 11.7%; width: 47%; } }
-/* line 554, ../_sass/css/common/_global.scss */
+/* line 555, ../_sass/css/common/_global.scss */
 .kv-container .kv .title-container .dot { position: absolute; left: 65%; top: -20%; width: 7.65%; }
-/* line 561, ../_sass/css/common/_global.scss */
+/* line 562, ../_sass/css/common/_global.scss */
 .kv-container .kv .title-container .sub-title { position: absolute; left: 51%; top: 71%; width: 67%; transform: translateX(-50%); }
-@media (min-width: 768px) { /* line 561, ../_sass/css/common/_global.scss */
+@media (min-width: 768px) { /* line 562, ../_sass/css/common/_global.scss */
   .kv-container .kv .title-container .sub-title { left: 51.5%; top: 65%; width: 56%; } }
-/* line 574, ../_sass/css/common/_global.scss */
+/* line 575, ../_sass/css/common/_global.scss */
 .kv-container .kv .title-container .sub-title .text { position: absolute; left: 50%; top: 10%; width: 92%; transform: translateX(-50%); }
-/* line 583, ../_sass/css/common/_global.scss */
+/* line 584, ../_sass/css/common/_global.scss */
 .kv-container .kv .title-container .des { position: absolute; left: 50%; top: 137%; width: 66%; transform: translateX(-50%); }
-@media (min-width: 768px) { /* line 583, ../_sass/css/common/_global.scss */
+@media (min-width: 768px) { /* line 584, ../_sass/css/common/_global.scss */
   .kv-container .kv .title-container .des { top: 113%; width: 90%; } }
-/* line 597, ../_sass/css/common/_global.scss */
+/* line 598, ../_sass/css/common/_global.scss */
 .kv-container .kv .richart { position: absolute; left: -3%; top: 64%; width: 51%; }
-@media (min-width: 768px) { /* line 597, ../_sass/css/common/_global.scss */
+@media (min-width: 768px) { /* line 598, ../_sass/css/common/_global.scss */
   .kv-container .kv .richart { left: 13%; top: 45%; width: 28%; } }
-/* line 609, ../_sass/css/common/_global.scss */
+/* line 610, ../_sass/css/common/_global.scss */
 .kv-container .kv .richart .hand { position: absolute; left: 55%; top: 46.5%; width: 50%; transform-origin: 20% 60%; }
-/* line 618, ../_sass/css/common/_global.scss */
+/* line 619, ../_sass/css/common/_global.scss */
 .kv-container .kv .pet-1 { position: absolute; left: 38%; top: 64%; width: 18%; transform-origin: 100% 100%; }
-@media (min-width: 768px) { /* line 618, ../_sass/css/common/_global.scss */
+@media (min-width: 768px) { /* line 619, ../_sass/css/common/_global.scss */
   .kv-container .kv .pet-1 { left: 53.5%; top: 63%; width: 10%; } }
-/* line 632, ../_sass/css/common/_global.scss */
+/* line 633, ../_sass/css/common/_global.scss */
 .kv-container .kv .pet-2 { position: absolute; left: 74%; top: 64%; width: 24%; transform-origin: 0% 100%; }
-@media (min-width: 768px) { /* line 632, ../_sass/css/common/_global.scss */
+@media (min-width: 768px) { /* line 633, ../_sass/css/common/_global.scss */
   .kv-container .kv .pet-2 { top: 61%; width: 13.5%; } }
-/* line 645, ../_sass/css/common/_global.scss */
+/* line 646, ../_sass/css/common/_global.scss */
 .kv-container .kv .pet-3 { position: absolute; left: 50%; top: 58.5%; width: 30.5%; transform-origin: 50% 100%; }
-@media (min-width: 768px) { /* line 645, ../_sass/css/common/_global.scss */
+@media (min-width: 768px) { /* line 646, ../_sass/css/common/_global.scss */
   .kv-container .kv .pet-3 { left: 60.2%; top: 52%; width: 17.5%; } }
-/* line 659, ../_sass/css/common/_global.scss */
+/* line 660, ../_sass/css/common/_global.scss */
 .kv-container .kv .lightning-1 { position: absolute; left: 83%; top: 54%; width: 11%; }
-@media (min-width: 768px) { /* line 659, ../_sass/css/common/_global.scss */
+@media (min-width: 768px) { /* line 660, ../_sass/css/common/_global.scss */
   .kv-container .kv .lightning-1 { left: 78%; top: 47%; width: 4.5%; } }
-/* line 672, ../_sass/css/common/_global.scss */
+/* line 673, ../_sass/css/common/_global.scss */
 .kv-container .kv .lightning-2 { position: absolute; left: 30%; top: 61%; width: 7%; }
-@media (min-width: 768px) { /* line 672, ../_sass/css/common/_global.scss */
+@media (min-width: 768px) { /* line 673, ../_sass/css/common/_global.scss */
   .kv-container .kv .lightning-2 { left: 49%; top: 59%; width: 4.3%; } }
-/* line 685, ../_sass/css/common/_global.scss */
+/* line 686, ../_sass/css/common/_global.scss */
 .kv-container .kv .ball { position: absolute; left: 46%; top: 79%; width: 17%; }
-@media (min-width: 768px) { /* line 685, ../_sass/css/common/_global.scss */
+@media (min-width: 768px) { /* line 686, ../_sass/css/common/_global.scss */
   .kv-container .kv .ball { left: 40%; top: 67%; width: 9%; } }
-/* line 703, ../_sass/css/common/_global.scss */
-.kv-container .anchor { position: absolute; left: 50%; bottom: 30px; display: block; width: 24px; height: 24px; margin: 0 auto; z-index: 5; }
-/* line 713, ../_sass/css/common/_global.scss */
-.kv-container .anchor span { display: block; color: #fff; font-weight: 700; position: absolute; left: 50%; top: -20px; transform: translateX(-50%); }
-/* line 723, ../_sass/css/common/_global.scss */
-.kv-container .anchor .arrow { position: absolute; display: block; width: 100%; height: 100%; left: 0; top: 0; border-bottom: 3px solid #fff; border-right: 3px solid #fff; border-radius: 3px; transform: rotate(45deg); animation: 3s linear infinite kvArrow; }
+
+/* line 707, ../_sass/css/common/_global.scss */
+.anchor-container { position: absolute; left: 50%; top: 0; width: 100%; max-width: 1920px; transform: translateX(-50%); z-index: 1; }
+/* line 717, ../_sass/css/common/_global.scss */
+.anchor-container .center-con { padding-top: 140%; }
+@media (min-width: 768px) { /* line 717, ../_sass/css/common/_global.scss */
+  .anchor-container .center-con { padding-top: 50%; } }
+/* line 725, ../_sass/css/common/_global.scss */
+.anchor-container .anchor { position: absolute; left: 50%; bottom: 30px; display: block; width: 24px; height: 24px; margin: 0 auto; z-index: 5; }
+/* line 735, ../_sass/css/common/_global.scss */
+.anchor-container .anchor span { display: block; color: #fff; font-weight: 700; position: absolute; left: 50%; top: -20px; transform: translateX(-50%); }
+/* line 745, ../_sass/css/common/_global.scss */
+.anchor-container .anchor .arrow { position: absolute; display: block; width: 100%; height: 100%; left: 0; top: 0; border-bottom: 3px solid #fff; border-right: 3px solid #fff; border-radius: 3px; transform: rotate(45deg); animation: 3s linear infinite kvArrow; }
 @keyframes kvArrow { 0%, 20%, 50%, 80%, 100% { top: 5px; }
   40% { top: -11px; }
   60% { top: -3px; } }
-/* line 764, ../_sass/css/common/_global.scss */
+/* line 786, ../_sass/css/common/_global.scss */
 .cta-thumb-container { margin-bottom: 10px; }
-@media (min-width: 992px) { /* line 764, ../_sass/css/common/_global.scss */
+@media (min-width: 992px) { /* line 786, ../_sass/css/common/_global.scss */
   .cta-thumb-container { margin-bottom: 16px; } }
-/* line 771, ../_sass/css/common/_global.scss */
+/* line 793, ../_sass/css/common/_global.scss */
 .cta-thumb-container .cta-thumb-list { display: flex; flex-direction: column; justify-content: space-between; }
-@media (min-width: 992px) { /* line 771, ../_sass/css/common/_global.scss */
+@media (min-width: 992px) { /* line 793, ../_sass/css/common/_global.scss */
   .cta-thumb-container .cta-thumb-list { flex-direction: row; } }
 
-/* line 782, ../_sass/css/common/_global.scss */
+/* line 804, ../_sass/css/common/_global.scss */
 .cta-thumb { display: flex; justify-content: center; align-items: center; position: relative; width: 100%; margin-bottom: 8px; }
-@media (min-width: 992px) { /* line 782, ../_sass/css/common/_global.scss */
+@media (min-width: 992px) { /* line 804, ../_sass/css/common/_global.scss */
   .cta-thumb { width: calc(50% - 4px); margin-bottom: 0; } }
-/* line 798, ../_sass/css/common/_global.scss */
+/* line 820, ../_sass/css/common/_global.scss */
 .cta-thumb:last-child { margin-bottom: 0; }
-/* line 802, ../_sass/css/common/_global.scss */
+/* line 824, ../_sass/css/common/_global.scss */
 .cta-thumb::before { content: ''; width: 100%; padding-top: 50.4%; }
-@media (min-width: 992px) { /* line 802, ../_sass/css/common/_global.scss */
+@media (min-width: 992px) { /* line 824, ../_sass/css/common/_global.scss */
   .cta-thumb::before { padding-top: 44.77%; } }
-/* line 812, ../_sass/css/common/_global.scss */
+/* line 834, ../_sass/css/common/_global.scss */
 .cta-thumb::after { content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(59, 64, 75, 0.85); transition: .3s; }
-/* line 823, ../_sass/css/common/_global.scss */
+/* line 845, ../_sass/css/common/_global.scss */
 .cta-thumb:hover { text-decoration: none; }
-/* line 826, ../_sass/css/common/_global.scss */
+/* line 848, ../_sass/css/common/_global.scss */
 .cta-thumb:hover::after { background-color: rgba(255, 255, 255, 0.85); }
-/* line 830, ../_sass/css/common/_global.scss */
+/* line 852, ../_sass/css/common/_global.scss */
 .cta-thumb:hover p { color: #f44336; }
-/* line 833, ../_sass/css/common/_global.scss */
+/* line 855, ../_sass/css/common/_global.scss */
 .cta-thumb:hover p::after { transform: translateX(4px) rotate(-45deg); }
-/* line 839, ../_sass/css/common/_global.scss */
+/* line 861, ../_sass/css/common/_global.scss */
 .cta-thumb p { color: #fff; font-size: 26px; font-weight: 700; line-height: 0; text-align: center; white-space: nowrap; display: flex; justify-content: flex-start; align-items: center; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 10; }
-/* line 857, ../_sass/css/common/_global.scss */
+/* line 879, ../_sass/css/common/_global.scss */
 .cta-thumb p::after { content: ''; display: block; width: 12px; height: 12px; margin-left: 10px; border-bottom: 2px solid #FFD800; border-right: 2px solid #FFD800; transform: translateX(0px) rotate(-45deg); transition: .2s ease-out; }
 
-/* line 871, ../_sass/css/common/_global.scss */
+/* line 893, ../_sass/css/common/_global.scss */
 .cta-about { background: url("../images/global/cta_bg_about.jpg") no-repeat center top; background-size: cover; }
 
-/* line 876, ../_sass/css/common/_global.scss */
+/* line 898, ../_sass/css/common/_global.scss */
 .cta-expertise { background: url("../images/global/cta_bg_expertise.jpg") no-repeat center top; background-size: cover; }
 
-/* line 881, ../_sass/css/common/_global.scss */
+/* line 903, ../_sass/css/common/_global.scss */
 .cta-access { background: url("../images/global/cta_bg_access.jpg") no-repeat center top; background-size: cover; }
 
-/* line 886, ../_sass/css/common/_global.scss */
+/* line 908, ../_sass/css/common/_global.scss */
 .cta-products { background: url("../images/global/cta_bg_products.jpg") no-repeat center top; background-size: cover; }
 
-/* line 891, ../_sass/css/common/_global.scss */
+/* line 913, ../_sass/css/common/_global.scss */
 .cta-diamond { background: url("../images/global/cta_bg_diamond.jpg") no-repeat center top; background-size: cover; }
 
-/* line 896, ../_sass/css/common/_global.scss */
+/* line 918, ../_sass/css/common/_global.scss */
 .link-to-page { display: flex; justify-content: center; align-items: center; }
-/* line 901, ../_sass/css/common/_global.scss */
-.link-to-page a { display: flex; justify-content: center; align-items: center; width: calc(100% - 48px); height: 64px; margin: 50px 0; background-color: #f44336; border: 2px solid #f44336; transition: .3s; }
-@media (min-width: 768px) { /* line 901, ../_sass/css/common/_global.scss */
-  .link-to-page a { width: 320px; margin-top: 49px; margin-bottom: 41px; } }
-/* line 919, ../_sass/css/common/_global.scss */
-.link-to-page a:active, .link-to-page a:focus { text-decoration: none; }
 /* line 923, ../_sass/css/common/_global.scss */
+.link-to-page a { display: flex; justify-content: center; align-items: center; width: calc(100% - 48px); height: 64px; margin: 50px 0; background-color: #f44336; border: 2px solid #f44336; transition: .3s; }
+@media (min-width: 768px) { /* line 923, ../_sass/css/common/_global.scss */
+  .link-to-page a { width: 320px; margin-top: 49px; margin-bottom: 41px; } }
+/* line 941, ../_sass/css/common/_global.scss */
+.link-to-page a:active, .link-to-page a:focus { text-decoration: none; }
+/* line 945, ../_sass/css/common/_global.scss */
 .link-to-page a:hover { text-decoration: none; background-color: #fff; }
-/* line 927, ../_sass/css/common/_global.scss */
+/* line 949, ../_sass/css/common/_global.scss */
 .link-to-page a:hover p { color: #f44336; }
-/* line 932, ../_sass/css/common/_global.scss */
+/* line 954, ../_sass/css/common/_global.scss */
 .link-to-page a p { color: #fff; font-size: 19px; font-weight: 700; line-height: 1.36; text-align: center; margin: 0; }
 
-@media (min-width: 768px) { /* line 943, ../_sass/css/common/_global.scss */
+@media (min-width: 768px) { /* line 965, ../_sass/css/common/_global.scss */
   .back-to-top { display: flex; position: -webkit-sticky; position: sticky; bottom: 5vh; left: 93vw; width: 50px; height: 50px; z-index: 1000; padding: 10px; margin-top: -50px; cursor: pointer; transition: .3s; border: 2px solid transparent; border-radius: 100%; opacity: 0; }
-  /* line 961, ../_sass/css/common/_global.scss */
+  /* line 983, ../_sass/css/common/_global.scss */
   .back-to-top.active { opacity: 1; }
-  /* line 965, ../_sass/css/common/_global.scss */
+  /* line 987, ../_sass/css/common/_global.scss */
   .back-to-top:hover { transform: scale3d(1.3, 1.3, 1.3); }
-  /* line 969, ../_sass/css/common/_global.scss */
+  /* line 991, ../_sass/css/common/_global.scss */
   .back-to-top::before { transform: rotate(45deg); right: 2px; }
-  /* line 974, ../_sass/css/common/_global.scss */
+  /* line 996, ../_sass/css/common/_global.scss */
   .back-to-top::after { transform: rotate(-45deg); right: 18px; }
-  /* line 979, ../_sass/css/common/_global.scss */
+  /* line 1001, ../_sass/css/common/_global.scss */
   .back-to-top::before, .back-to-top::after { position: absolute; bottom: 21px; width: 24px; height: 3px; content: ''; transition: .3s; background-color: #3B404B; border-radius: 3px; transition: .3s; } }
-@media (min-width: 1200px) { /* line 943, ../_sass/css/common/_global.scss */
+@media (min-width: 1200px) { /* line 965, ../_sass/css/common/_global.scss */
   .back-to-top { left: 95vw; } }
 
 /* line 1, ../_sass/css/page/_index.scss */

@@ -516,6 +516,7 @@ header{
 		position: relative;
 		width: 100%;
 		padding-top: 140%;
+		z-index: -1;
 
 		background-repeat: no-repeat;
 		background-position: center bottom;
@@ -698,6 +699,27 @@ header{
 		// .anchor{
 		// 	width: 30px;
 		// }
+	}
+
+	
+}
+
+.anchor-container{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	width: 100%;
+	max-width: 1920px;
+	transform: translateX(-50%);
+	// background-color: rgba(100, 50,10, 0.5);
+	z-index: 1;
+
+	.center-con{
+		padding-top: 140%;
+
+		@media (min-width: $media_sm) {
+			padding-top: 50%;
+		}
 	}
 
 	.anchor{
