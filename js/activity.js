@@ -10,9 +10,19 @@ $(function(){
     TweenMax.set($('.item-1 .item-center'), {alpha: 0});
     TweenMax.set($('.item-2 .item-center'), {alpha: 0});
     TweenMax.set($('.item-3 .item-center'), {alpha: 0});
-    TweenMax.set($('.big-ball .smoke'), {scale: 0.6, alpha: 0});
+    TweenMax.set($('.big-ball .smoke'), {x: '-50%', y: '-50%', scale: 0.6, alpha: 0});
 
     timer = setInterval(loop, 100);
+
+    $('.content-1 .rule-link').on('click', function(){
+      $('.lb-container').fadeIn();
+      return false;
+    });
+
+    $('.lb-container .lb-close').on('click', function(){
+      $('.lb-container').fadeOut();
+      return false;
+    });
   }
 
   function onScroll(){
@@ -32,18 +42,18 @@ $(function(){
   function loop(){
     if(times > 20){
       clearInterval(timer);
-      TweenMax.to($('.big-ball .smoke-1'), 0.2, {scale: 1, alpha: 1, ease: Power3.easeOut, delay: 0.18});
-      TweenMax.to($('.big-ball .smoke-2'), 0.3, {scale: 1, alpha: 1, ease: Power3.easeOut, delay: 0.1});
-      TweenMax.to($('.big-ball .smoke-3'), 0.2, {scale: 1, alpha: 1, ease: Power3.easeOut, delay: 0.18});
-      TweenMax.to($('.big-ball .smoke-4'), 0.2, {scale: 1, alpha: 1, ease: Power3.easeOut, delay: 0.18});
-      TweenMax.to($('.big-ball .smoke-5'), 0.3, {scale: 1, alpha: 1, ease: Power3.easeOut, delay: 0.1, onComplete: reset});
+      TweenMax.to($('.big-ball .smoke-1'), 0.2, {x: '-50%', y: '-50%', scale: 1, alpha: 1, ease: Power3.easeOut, delay: 0.18});
+      TweenMax.to($('.big-ball .smoke-2'), 0.3, {x: '-50%', y: '-50%', scale: 1, alpha: 1, ease: Power3.easeOut, delay: 0.1});
+      TweenMax.to($('.big-ball .smoke-3'), 0.2, {x: '-50%', y: '-50%', scale: 1, alpha: 1, ease: Power3.easeOut, delay: 0.18});
+      TweenMax.to($('.big-ball .smoke-4'), 0.2, {x: '-50%', y: '-50%', scale: 1, alpha: 1, ease: Power3.easeOut, delay: 0.18});
+      TweenMax.to($('.big-ball .smoke-5'), 0.3, {x: '-50%', y: '-50%', scale: 1, alpha: 1, ease: Power3.easeOut, delay: 0.1, onComplete: reset});
     }
 
     times++;
     var random1X = Math.random()*(15-8)+8;
     var random1Y = Math.random()*(15-8)+8;
     
-    TweenMax.set($('.big-ball'), {x: random1X, y:-random1Y});
+    TweenMax.set($('.big-ball .ball'), {x: random1X, y:-random1Y});
   }
 
   function reset(){
@@ -52,7 +62,7 @@ $(function(){
   }
 
   function reStart(){
-    TweenMax.set($('.big-ball .smoke'), {scale: 0.6, alpha: 0});
+    TweenMax.set($('.big-ball .smoke'), {x: '-50%', y: '-50%', scale: 0.6, alpha: 0});
     timer = setInterval(loop, 100);
   }
 
