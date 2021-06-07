@@ -4348,7 +4348,7 @@ header .header-container .hamburger.open li:nth-child(2) { transform: rotate(-45
 /* line 193, ../_sass/css/page/_activity.scss */
 .page-activity .content-1 .link-con .normal-link:hover, .page-activity .content-1 .link-con .normal-link:active, .page-activity .content-1 .link-con .normal-link:focus { text-decoration: none; }
 /* line 197, ../_sass/css/page/_activity.scss */
-.page-activity .content-1 .link-con .normal-link:hover { background-color: #fef600; border: 3px solid #fef600; }
+.page-activity .content-1 .link-con .normal-link:hover { background-color: #fef600; border: 3px solid #000; }
 /* line 201, ../_sass/css/page/_activity.scss */
 .page-activity .content-1 .link-con .normal-link:hover span { color: #000; }
 /* line 205, ../_sass/css/page/_activity.scss */
